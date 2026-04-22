@@ -4,11 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tags não Visuais</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            background-color: #444;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        section{
+            display: flex;
+            gap: 20px;
+            padding: 9.5rem;
+            border: 10px solid #000;
+        }
+        div{
+            flex: 1;
+            border: 2px solid #333;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 50px;
+            border-radius: 12px;
+        }
+        footer{
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 5px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Tags não Visuais</h1>
-    <!--Tags Semânticas
     
+    <!--  Tags Semânticas
+
     section - agrupamento temático de conteúdo
     div - divisão ou seção
     article - conteúdo auto contido
@@ -18,15 +53,29 @@
     aside - de lado (ex:aba de navegação lateral) relacionado com o conteúdo em volta
     details - exibe detalhes que pode ser exibidos ou escondido com css -->
     <header>
-        <p>Eu sou o cabeçalho de titulo, logo e navegação</p>
+        <h1>Tags não Visuais</h1> 
     </header>
     <main>
         <section>
             <div>
                 <h2>Sou a primeira div</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur porro doloribus quo nobis cupiditate. Quae, rerum quam? Nobis illum unde asperiores dolores? Modi, aspernatur ipsa.</p>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br> 
+                    Praesentium qui libero optio inventore quae! Iure, unde autem fugiat nemo <br>
+                    incidunt similique ipsa voluptatibus voluptates culpa! <br>
+                </p>
+            </div>
+            <div>
+                <h2>Sou a segunda div</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis labore inventore <br> 
+                    quas id minima esse, optio assumenda cupiditate distinctio non.<br>
+                </p>
             </div>
         </section>
     </main>
+    <footer>
+        <p>&copy;Helen Yohanna em 2026 no senai</p>
+    </footer>
 </body>
 </html>
