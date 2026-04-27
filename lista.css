@@ -7,6 +7,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     min-height: 100vh;
 }
 
@@ -31,10 +32,10 @@ ol, ul, dl{
     margin: 0;
     padding: 0;
     list-style-position: inside;
-    width: 100%;
+    width:100%;
 }
 
-ol li, ul li{
+ol li, ul li, dt dl{
     background-color: #fff;
     border-radius: 8px;
     padding: 12px;
@@ -42,17 +43,16 @@ ol li, ul li{
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-ol li, ul li:hover{
+ol li:hover, ul li:hover{
     transform: translateY(-5px);
     background-color: #00bcd4;
     color: #fff;
-
 }
 
 h1, h2, ol li, ul li, dl dd{
-    transition: transform 0.3s ease, box-shadow 0.3 ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 h1:hover, h2:hover, ol li:hover, ul li:hover, dl dd:hover{
     box-shadow: 0 6px 12px rgba(0, 188, 212, 0.3);
-}
+} 
